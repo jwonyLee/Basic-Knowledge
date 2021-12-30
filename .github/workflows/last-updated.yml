@@ -1,0 +1,21 @@
+name: Update Last-Updated Badge
+
+on: [push]
+
+jobs:
+  answer-badge:
+    name: Update Last-Updated Badge
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
+      - name: Create the Badge
+        uses: schneegans/dynamic-badges-action@master
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gistID: 8cada4493857dea994701e4a73a08dc9
+          filename: last-updated.json
+          label: "Last Updated"
+          message: ${{ steps.date.outputs.date }}
+          color: blue
