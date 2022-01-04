@@ -18,6 +18,20 @@
   - [성장](#성장)
 
 ## 자료구조
+
+- [시간 복잡도](Data-Structure.md#-시간-복잡도)
+- [배열](Data-Structure.md#-배열)
+- [튜플](Data-Structure.md#-튜플)
+- [연결 리스트](Data-Structure.md#-연결-리스트)
+- [해시 테이블](Data-Structure.md#-해시-테이블)
+- [스택](Data-Structure.md#-스택)
+- [큐](Data-Structure.md#-큐)
+- [덱](Data-Structure.md#-덱)
+- [그래프](Data-Structure.md#-그래프)
+- [트리](Data-Structure.md#-트리)
+  - [이진 트리](Data-Structure.md#-이진-트리)
+  - [힙](Data-Structure.md#-힙)
+
 ## 알고리즘
 ## 네트워크
 ## 운영체제
