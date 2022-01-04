@@ -35,6 +35,11 @@
 ## 알고리즘
 ## 네트워크
 ## 운영체제
+  - [CPU 스케줄링](Operating-System.md#-cpu-스케줄링)
+    - [스케줄링 알고리즘](Operating-System.md#-스케줄링-알고리즘)
+      - [FCFS<sup>First Come First Served</sup> 스케줄링](Operating-System.md#-fcfssupfirst-come-first-servedsup-스케줄링)
+      - [SJF<sup>Shortest Job First</sup> 스케줄링](Operating-System.md#-sjfsupshortest-job-firstsup-스케줄링)
+
 ## 소프트웨어 공학
 ## 데이터베이스
 ## 디자인패턴
