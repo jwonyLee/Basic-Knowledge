@@ -1,11 +1,11 @@
 import Foundation
 
-final public class FCFSScheduler: Scheduler {
+final public class SJFScheduler: Scheduler {
     public var queue: [Taskable]
     public var currentTime: Int = 0
     
     public init(queue: [Taskable]) {
-        self.queue = queue
+        self.queue = queue.sorted { $0.workingTime < $1.workingTime }
     }
     
     public func start() {
